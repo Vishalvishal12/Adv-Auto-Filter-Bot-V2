@@ -24,7 +24,7 @@ async def start(bot, update):
             return
         
         
-        caption = file_caption if file_caption else ''
+       caption = file_caption or ''
         
         if file_type == "document":
         
