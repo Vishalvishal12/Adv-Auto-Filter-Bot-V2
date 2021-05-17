@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"""Found {(len_results)} Results For Your Query: <code>{query}</code> \n <b>♕ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ♛</b> <a href="https://t.me/jns_bots">ＪƝ⟆ ᗷ〇Ƭ⟆</a> """,
+                text=f"""<i>Found {(len_results)} Results For Your Query:</i> <b>{query}</b> \n\n <a href="https://t.me/FCfilmcornerfc">♕ 𝓕𝓘𝓛𝓜 𝓒𝓞𝓡𝓝𝓔𝓡 ♛</a> """,
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
