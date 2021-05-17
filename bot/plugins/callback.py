@@ -142,13 +142,14 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> \n hii🤪 <i>Results For Your Query:</i> <code>{query}</code>"
+    text=f"""<i>Found {leng} Results For Your Query:</i> <b>{query}</b> \n\n <a href="https://t.me/FCfilmcornerfc">♕ 𝓕𝓘𝓛𝓜 𝓒𝓞𝓡𝓝𝓔𝓡 ♛</a>"""
         
     try:
         await update.message.edit(
                 text,
                 reply_markup=reply_markup,
-                parse_mode="html"
+                parse_mode="html",
+                disable_web_page_preview=True
         )
         
     except FloodWait as f: # Flood Wait Caused By Spamming Next/Back Buttons
@@ -156,7 +157,8 @@ async def cb_navg(bot, update: CallbackQuery):
         await update.message.edit(
                 text,
                 reply_markup=reply_markup,
-                parse_mode="html"
+                parse_mode="html",
+                disable_web_page_preview=True
         )
 
 
