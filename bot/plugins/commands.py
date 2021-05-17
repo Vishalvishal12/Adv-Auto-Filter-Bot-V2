@@ -40,7 +40,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/JNS_BOTS"
+                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/FCfilmcornerfc"
                                 )
                         ]
                     ]
@@ -60,7 +60,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/jns_bots"
+                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/FCfilmcornerfc"
                                 )
                         ]
                     ]
@@ -80,7 +80,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/jns_bots"
+                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/FCfilmcornerfc"
                                 )
                         ]
                     ]
