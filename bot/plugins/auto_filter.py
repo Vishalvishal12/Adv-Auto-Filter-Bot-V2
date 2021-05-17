@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"""<i>Found {(len_results)} Results For Your Query:</i> <b>{query}</b> \n <b>⭕OPEN BELOW BUTTON AND CLICK ON <u> START </u>⭕</b>  \n\n <a href="https://t.me/FCfilmcornerfc">♕ 𝓕𝓘𝓛𝓜 𝓒𝓞𝓡𝓝𝓔𝓡 ♛</a> """,
+                text=f"""<i>Found {(len_results)} Results For Your Query:</i> <b>{query}</b> \n\n <b>💥open below button and click on <u> START </u>💥</b>  \n\n <a href="https://t.me/FCfilmcornerfc">♕ 𝓕𝓘𝓛𝓜 𝓒𝓞𝓡𝓝𝓔𝓡 ♛</a> """,
                 reply_markup=reply_markup,
                 parse_mode="html",
                 disable_web_page_preview=True,
