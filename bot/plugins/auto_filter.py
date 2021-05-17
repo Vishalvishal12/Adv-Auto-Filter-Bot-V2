@@ -206,6 +206,7 @@ async def auto_filter(bot, update):
                 text=f"""<i>Found {(len_results)} Results For Your Query:</i> <b>{query}</b> \n\n <a href="https://t.me/FCfilmcornerfc">♕ 𝓕𝓘𝓛𝓜 𝓒𝓞𝓡𝓝𝓔𝓡 ♛</a> """,
                 reply_markup=reply_markup,
                 parse_mode="html",
+                disable_web_page_preview=True,
                 reply_to_message_id=update.message_id
             )
 
