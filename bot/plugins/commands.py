@@ -67,7 +67,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/FCfilmcornerfc"
+                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/JNS_BOTS"
                                 )
                         ]
                     ]
@@ -87,7 +87,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/FCfilmcornerfc"
+                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/JNS_BOTS"
                                 )
                         ]
                     ]
@@ -107,7 +107,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/FCfilmcornerfc"
+                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/jns_bots"
                                 )
                         ]
                     ]
@@ -121,7 +121,7 @@ Join on our channel to get movies ✅
 
     buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/jns_bots'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/https://t.me/githubsoursecode')],                               
+        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/https://t.me/jns_bots')],                               
      [
         InlineKeyboardButton('Support 🛠', url='https://t.me/jns_fc_bots')
     ],[
