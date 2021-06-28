@@ -85,7 +85,7 @@ Deploy on Heroku
 
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/jinto4638/Adv-Auto-Filter-Bot-V2">
+<a href="https://heroku.com/deploy?template=https://github.com/Vishalvishal12/Adv-Auto-Filter-Bot-V2">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
