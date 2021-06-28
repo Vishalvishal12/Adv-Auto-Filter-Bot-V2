@@ -67,7 +67,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/JNS_BOTS"
+                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/OTT_LinkzZ"
                                 )
                         ]
                     ]
@@ -86,7 +86,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/JNS_BOTS"
+                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/OTT_LinkzZ"
                                 )
                         ]
                     ]
@@ -105,7 +105,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/jns_bots"
+                                    '🎊JOIN ON CHANNEL🎉', url="https://t.me/OTT_LinkzZ"
                                 )
                         ]
                     ]
