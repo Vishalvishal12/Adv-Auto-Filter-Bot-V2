@@ -203,11 +203,11 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"""<i>Found {(len_results)} Results For Your Query:</i> <b>{query}</b> \n\n <b>💥open below button and click on <u> START </u>💥</b>  \n\n 👇 SUBSCRIBE 👇 \n <a href="https://t.me/FCfilmcornerfc">♕ 𝓕𝓘𝓛𝓜 𝓒𝓞𝓡𝓝𝓔𝓡 ♛</a> """,
+                text=f"""<i>Found {(len_results)} Results For Your Query:</i> <b>{query}</b> \n\n <b>💥open below button and click on <u> START </u>💥</b>  \n\n 👇 SUBSCRIBE 👇 \n @OTT_LinkzZ """,
                 reply_markup=reply_markup,
                 parse_mode="html",
                 disable_web_page_preview=True,
-                reply_to_message_id=update.message_id
+                reply_to_message_id=update.me
             )
 
         except ButtonDataInvalid:
